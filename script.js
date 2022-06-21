@@ -13,3 +13,14 @@ function makeRow(){
 
 makeRow()
 makeRow()
+
+
+const button = document.getElementById('add-row')
+
+button.addEventListener('click', makeRow)
+
+
+table.addEventListener('click', colorized)
+function colorized(event){
+    console.log('clicked')
+}
